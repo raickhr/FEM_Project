@@ -1,7 +1,7 @@
 ## Shikhar Rai 
 
 This is a FEM course project at University of Rochester. Fall 2019
-# Input format
+## Input format
 
 An input folder location is to be provided in file main.py inside codes folder. The input file should contain files:
 
@@ -14,5 +14,15 @@ An input folder location is to be provided in file main.py inside codes folder. 
 7. nodeid.txt
 
 Sample of the input files are in \input folder and \inputCoarse folder for fine and coarse mesh. The lines that start with '%' are the comment lines and are ignored by the code.
+
+## Running the code
+
+Download the folder FEM_project and go to codes folder.
+
+* Run for reduced integraion
+    * python main.py --integration reduced --inputDir ../input
+
+* Run for full integraion
+    * python main.py --integration full --inputDir ../input
 
 

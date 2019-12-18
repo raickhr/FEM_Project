@@ -203,7 +203,7 @@ class Q4_element:
         return Kmat
             
 
-    def calcFullIntKmatrix(self, t, E, nu):    
+    def calcReducedKmatrix(self, t, E, nu):    
         Emat = E/(1-nu**2)* np.array(\
             [[  1, nu,          0],
              [ nu,  1,          0],
@@ -213,6 +213,24 @@ class Q4_element:
                           [0, 0, 0, 1],
                           [0, 1, 1, 0]])
         
+        #### Values of xi and eta for reduced integration
+
+        xi = 0.0
+        eta = 0.0
+
+        Kmat = 4*self.getKmat(xi, eta, alpha, t, Emat)
+        self.Kmatrix = np.array(Kmat)
+
+    def calcFullIntKmatrix(self, t, E, nu):
+        Emat = E/(1-nu**2) * np.array(
+            [[1, nu,          0],
+             [nu,  1,          0],
+             [0,  0, (1 - nu)/2]])
+
+        alpha = np.array([[1, 0, 0, 0],
+                          [0, 0, 0, 1],
+                          [0, 1, 1, 0]])
+
         #### Values of xi and eta for full integration
 
         xi_list = [-1/np.sqrt(3), 1/np.sqrt(3)]
@@ -245,7 +263,7 @@ class Q4_element:
         Kmat = Kmat1 + Kmat2 + Kmat3 + Kmat4
 
         self.Kmatrix = np.array(Kmat)
-        
+
 
 
         
