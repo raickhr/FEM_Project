@@ -43,14 +43,14 @@ All of the cases have same boundary conditions and loading
 ## Input format
 
 An input folder location is to be provided in file main.py inside codes folder. The input file should contain files:
-| Filename      |              Description      |
-|--------------:|:-----------------------------:|
-| nodeid.txt    | node id  |
-| coord.txt     | node co-ordinates |
-| elementid.txt | element id |
+| Filename      |              Description           |
+|--------------:|:----------------------------------:|
+| nodeid.txt    | node id                            |
+| coord.txt     | node co-ordinates                  |
+| elementid.txt | element id                         |
 | elemconn.txt  | 4 nodes connected in each element  |
-| matprop.txt   | Material Properties |
-| bc_code.txt   | boundary conditions |
-| loads.txt     | loading conditions |
+| matprop.txt   | Material Properties                |
+| bc_code.txt   | boundary conditions                |
+| loads.txt     | loading conditions                 |
 
 Sample of the input files are in FEM_Project\input folder and FEM_Project\inputCoarse folder for fine and coarse mesh. The lines that start with '%' are the comment lines and are ignored by the code.
