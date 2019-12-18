@@ -66,9 +66,8 @@ Sample of the input files are in FEM_Project\input folder and FEM_Project\inputC
     <img style="width: 800px; height: 200px" src="FEM_Project/images/StressStrain Coarse.png"/>
     <p align="center">Figure: Stress and Strain for coarse mesh, full integration </a></p>
 <figure>
-<p align="center">
+
 <figure>
     <img style="width: 400px; height: 200px" src="FEM_Project/images/Reaction Coarse.png"/>
     Figure: Y-Reaction at base, full integration 
 <figure>
-</a></p>
