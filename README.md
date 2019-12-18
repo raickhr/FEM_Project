@@ -44,12 +44,6 @@ All of the cases have same boundary conditions and loading
 
 An input folder location is to be provided in file main.py inside codes folder. The input file should contain files:
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
 | Filename      |              Description           |
 |--------------:|:----------------------------------:|
 | nodeid.txt    | node id                            |
