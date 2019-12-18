@@ -56,9 +56,9 @@ An input folder location is to be provided in file main.py inside codes folder. 
 
 Sample of the input files are in FEM_Project\input folder and FEM_Project\inputCoarse folder for fine and coarse mesh. The lines that start with '%' are the comment lines and are ignored by the code.
 
-## Results of Coarse Mesh Reduced integration
+## Results of Coarse Mesh Full integration
 
 <figure>
     <img style="width: 800px; height: 200px" src="FEM_Project/images/Displacement Coarse.png"/>
-    <figcaption align="center">Figure: Coarse Mesh</figcaption>
+    <p align="center"><br/>Figure: Displacement </a></p>
 <figure>
