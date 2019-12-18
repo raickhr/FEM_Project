@@ -28,8 +28,18 @@ Download the folder FEM_project and go to FEM_Project/codes folder.
 A user defined location for input folder can be given instead of '../input' for inputDir argument.
 
 ## Cases
-The problem solved here is a planar problem, where a unit point force is applied to a cylinder radially at top of the circumference of the cylinder. 
-<img src="FEM_Project/images/ProblemDes.png" title="Problem Description" height=250 width =520 />
+The problem solved here is a planar problem, where a unit point force is applied to a cylinder radially at top of the circumference of the cylinder. Because of the symmetry of the problem only a quarter of the problem is solved.
+<img src="FEM_Project/images/ProblemDes.png" height=250 width =520 />
+
+<figure>
+    <img src="FEM_Project/images/Undeformed Coarse.png" height=250 width =250 />
+    <figcaption>Figure: Coarse Mesh</figcaption>
+</figure>
+
+<figure>
+    <img src="FEM_Project/images/Undeformed Fine.png" height=250 width =250 />
+    <figcaption>Figure: Fine Mesh</figcaption>
+</figure>
 
 
 Four cases as following has been documented here:
