@@ -35,8 +35,10 @@ The problem solved here is a planar problem, where a unit point force is applied
 <table>
   <tr>
      <td>
+        <figure>
         <img style="width: 200px; height: 200px" src="FEM_Project/images/Undeformed Coarse.png"/>
-         <br/>Figure: Coarse Mesh</a>
+         <figcaption>Figure: Coarse Mesh</figcaption>
+        <figure>
      </td>
      <td>
         <img style="width: 200px; height: 200px" src="FEM_Project/images/Undeformed Fine.png"/>
