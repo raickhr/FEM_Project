@@ -69,5 +69,21 @@ Sample of the input files are in FEM_Project\input folder and FEM_Project\inputC
 
 <figure>
     <img src="FEM_Project/images/Reaction Coarse.png" width=350 height=200/>
-    Figure: Y-Reaction at base, full integration 
+    Figure: Y-Reaction at base for coarse mesh, full integration 
+<figure>
+
+## Results of Fine Mesh Full integration
+
+<figure>
+    <img style="width: 800px; height: 200px" src="FEM_Project/images/Displacement Fine.png"/>
+    <p align="center">Figure: Displacement for fine mesh, Full integration</a></p>
+<figure>
+<figure>
+    <img style="width: 800px; height: 200px" src="FEM_Project/images/StressStrain Fine.png"/>
+    <p align="center">Figure: Stress and Strain for fine mesh, full integration </a></p>
+<figure>
+
+<figure>
+    <img src="FEM_Project/images/Reaction Fine.png" width=350 height=200/>
+    Figure: Y-Reaction at base for fine mesh, full integration 
 <figure>
