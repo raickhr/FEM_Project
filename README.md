@@ -15,7 +15,7 @@ Download the folder FEM_project and go to FEM_Project/codes folder.
 A user defined location for input folder can be given instead of '../input' for inputDir argument.
 
 ## Cases
-The problem solved here is a planar problem, where a unit point force is applied to a cylinder of unit radius radially at top of the circumference of the cylinder. Because of the symmetry of the problem only a quarter of the problem is solved.
+The problem solved here is a planar problem, where a unit point force is applied to a cylinder of unit radius radially at top of the circumference of the cylinder. Because of the symmetry of the problem only a quarter of the problem is solved. The case is a plain strain condtion as the dimension along the axis is very large compared to other direction.
 <img src="FEM_Project/images/ProblemDes.png" height=250 width =520 />
 
 <table>
@@ -38,7 +38,7 @@ Four cases as following has been documented here:
 3. Fine Mesh Reduced Integration
 4. Fine Mesh Full Integration
 
-All of the cases have same boundary conditions and loading
+Coarse mesh have 11 nodes with 8 elements and fine mesh have 34 nodes with 24 elements. The nodes at x = 0 is fixed in x direction and nodes at y = 0 is fixed in y direction. Load is applied in a single node at positon (x,y) = (0,1). All of the cases have same boundary conditions and loading
 
 ## Input format
 
