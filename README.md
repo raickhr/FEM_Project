@@ -29,7 +29,7 @@ A user defined location for input folder can be given instead of '../input' for 
 
 ## Cases
 The problem solved here is a planar problem, where a unit point force is applied to a cylinder radially at top of the circumference of the cylinder. 
-<img src="FEM_Project/images/ProblemDes.png" title="Problem Description" height=100 width =100 />
+<img src="FEM_Project/images/ProblemDes.png" title="Problem Description" height=250 width =250 />
 
 
 Four cases as following has been documented here:
