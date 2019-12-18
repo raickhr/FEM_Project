@@ -34,30 +34,15 @@ The problem solved here is a planar problem, where a unit point force is applied
 <table align="center">
   <tr>
      <td>
-        <img style="width: 200px; height: 275px" src="FEM_Project/images/Undeformed Coarse.png"/>
-         <br/>Coarse Mesh</a>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Undeformed Coarse.png"/>
+         <br/><center>Figure: Coarse Mesh</center></a>
      </td>
      <td>
-        <img style="width: 200px; height: 275px" src="FEM_Project/images/Undeformed Fine.png"/>
-        <br/>Fine Mesh</a>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Undeformed Fine.png"/>
+        <br/><center>Figure: Fine Mesh</center></a>
      </td>
   </tr>
 </table>
-
-<!-- <div class="row">
-  <div class="column">
-    <figure>
-        <img src="FEM_Project/images/Undeformed Coarse.png" height=250 width =250 />
-        <figcaption>Figure: Coarse Mesh</figcaption>
-    </figure>
-  </div>
-  <div class="column">
-    <figure>
-        <img src="FEM_Project/images/Undeformed Fine.png" height=250 width =250 />
-        <figcaption>Figure: Fine Mesh</figcaption>
-    </figure>
-  </div>
-</div> -->
 
 Four cases as following has been documented here:
 
