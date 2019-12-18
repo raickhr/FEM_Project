@@ -1,19 +1,6 @@
 ## Shikhar Rai 
 
 This is a FEM course project at University of Rochester. Fall 2019
-## Input format
-
-An input folder location is to be provided in file main.py inside codes folder. The input file should contain files:
-
-1. bc_code.txt
-2. coord.txt
-3. elemconn.txt
-4. elementid.txt
-5. loads.txt
-6. matprop.txt
-7. nodeid.txt
-
-Sample of the input files are in FEM_Project\input folder and FEM_Project\inputCoarse folder for fine and coarse mesh. The lines that start with '%' are the comment lines and are ignored by the code.
 
 ## Running the code
 
@@ -28,9 +15,8 @@ Download the folder FEM_project and go to FEM_Project/codes folder.
 A user defined location for input folder can be given instead of '../input' for inputDir argument.
 
 ## Cases
-The problem solved here is a planar problem, where a unit point force is applied to a cylinder radially at top of the circumference of the cylinder. Because of the symmetry of the problem only a quarter of the problem is solved.
+The problem solved here is a planar problem, where a unit point force is applied to a cylinder of unit radius radially at top of the circumference of the cylinder. Because of the symmetry of the problem only a quarter of the problem is solved.
 <img src="FEM_Project/images/ProblemDes.png" height=250 width =520 />
-
 
 <table>
   <tr>
@@ -53,3 +39,18 @@ Four cases as following has been documented here:
 4. Fine Mesh Full Integration
 
 All of the cases have same boundary conditions and loading
+
+## Input format
+
+An input folder location is to be provided in file main.py inside codes folder. The input file should contain files:
+| Filename      |              Description      |
+|--------------:|:-----------------------------:|
+| nodeid.txt    | node id  |
+| coord.txt     | node co-ordinates |
+| elementid.txt | element id |
+| elemconn.txt  | 4 nodes connected in each element  |
+| matprop.txt   | Material Properties |
+| bc_code.txt   | boundary conditions |
+| loads.txt     | loading conditions |
+
+Sample of the input files are in FEM_Project\input folder and FEM_Project\inputCoarse folder for fine and coarse mesh. The lines that start with '%' are the comment lines and are ignored by the code.
