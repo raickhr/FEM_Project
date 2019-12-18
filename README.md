@@ -56,6 +56,22 @@ An input folder location is to be provided in file main.py inside codes folder. 
 
 Sample of the input files are in FEM_Project\input folder and FEM_Project\inputCoarse folder for fine and coarse mesh. The lines that start with '%' are the comment lines and are ignored by the code.
 
+## Results of Coarse Mesh Reduced integration
+
+<figure>
+    <img style="width: 800px; height: 200px" src="FEM_Project/images/Displacement CoarseR.png"/>
+    <p align="center">Figure: Displacement for coarse mesh, reduced integration</a></p>
+<figure>
+<figure>
+    <img style="width: 800px; height: 200px" src="FEM_Project/images/StressStrain CoarseR.png"/>
+    <p align="center">Figure: Stress and Strain for coarse mesh, reduced integration </a></p>
+<figure>
+
+<figure>
+    <img src="FEM_Project/images/Reaction CoarseR.png" width=350 height=200/>
+    Figure: Y-Reaction at base for coarse mesh, reduced integration 
+<figure>
+
 ## Results of Coarse Mesh Full integration
 
 <figure>
@@ -70,6 +86,22 @@ Sample of the input files are in FEM_Project\input folder and FEM_Project\inputC
 <figure>
     <img src="FEM_Project/images/Reaction Coarse.png" width=350 height=200/>
     Figure: Y-Reaction at base for coarse mesh, full integration 
+<figure>
+
+## Results of Fine Mesh Reduced integration
+
+<figure>
+    <img style="width: 800px; height: 200px" src="FEM_Project/images/Displacement FineR.png"/>
+    <p align="center">Figure: Displacement for fine mesh, reduced integration</a></p>
+<figure>
+<figure>
+    <img style="width: 800px; height: 200px" src="FEM_Project/images/StressStrain FineR.png"/>
+    <p align="center">Figure: Stress and Strain for fine mesh, reduced integration </a></p>
+<figure>
+
+<figure>
+    <img src="FEM_Project/images/Reaction FineR.png" width=350 height=200/>
+    Figure: Y-Reaction at base for fine mesh, reduced integration 
 <figure>
 
 ## Results of Fine Mesh Full integration
