@@ -60,5 +60,9 @@ Sample of the input files are in FEM_Project\input folder and FEM_Project\inputC
 
 <figure>
     <img style="width: 800px; height: 200px" src="FEM_Project/images/Displacement Coarse.png"/>
-    <p align="center">Figure: Displacement </a></p>
+    <p align="center">Figure: Displacement for coarse mesh, Full integration</a></p>
+<figure>
+<figure>
+    <img style="width: 800px; height: 200px" src="FEM_Project/images/StressStrain Coarse.png"/>
+    <p align="center">Figure: Stress and Strain for coarse mesh, full integration </a></p>
 <figure>
