@@ -44,7 +44,7 @@ Coarse mesh have 11 nodes with 8 elements and fine mesh have 34 nodes with 24 el
 
 An input folder location is to be provided in file main.py inside codes folder. The input file should contain files:
 
-| Filename      |              Description           |
+| Filename      |              Content               |
 |--------------:|:----------------------------------:|
 | nodeid.txt    | node id                            |
 | coord.txt     | node co-ordinates                  |
@@ -55,3 +55,10 @@ An input folder location is to be provided in file main.py inside codes folder. 
 | loads.txt     | loading conditions                 |
 
 Sample of the input files are in FEM_Project\input folder and FEM_Project\inputCoarse folder for fine and coarse mesh. The lines that start with '%' are the comment lines and are ignored by the code.
+
+## Results of Coarse Mesh Reduced integration
+
+<figure>
+    <img style="width: 800px; height: 200px" src="FEM_Project/images/Displacement Coarse.png"/>
+    <figcaption align="center">Figure: Coarse Mesh</figcaption>
+<figure>
