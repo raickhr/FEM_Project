@@ -25,4 +25,4 @@ Download the folder FEM_project and go to codes folder.
 * Run for full integraion
     * python main.py --integration full --inputDir ../input
 
-
+A user defined location for input folder can be given instead of '../input' for inputDir argument.
