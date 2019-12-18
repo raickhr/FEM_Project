@@ -31,22 +31,14 @@ A user defined location for input folder can be given instead of '../input' for 
 The problem solved here is a planar problem, where a unit point force is applied to a cylinder radially at top of the circumference of the cylinder. Because of the symmetry of the problem only a quarter of the problem is solved.
 <img src="FEM_Project/images/ProblemDes.png" height=250 width =520 />
 
-<center>
-<table>
-  <tr>
-     <td>
-        <figure>
+| Tables   |      Are      |
+|:--------:|:-------------:|
+| <figure>
         <img style="width: 200px; height: 200px" src="FEM_Project/images/Undeformed Coarse.png"/>
          <figcaption>Figure: Coarse Mesh</figcaption>
-        <figure>
-     </td>
-     <td>
-        <img style="width: 200px; height: 200px" src="FEM_Project/images/Undeformed Fine.png"/>
-        <br/>Figure: Fine Mesh</a>
-     </td>
-  </tr>
-</table>
-</center>
+        <figure> |  <figure><img style="width: 200px; height: 200px" src="FEM_Project/images/Undeformed Fine.png"/>
+        <figcaption>Figure: Fine Mesh</figcaption> |
+
 
 Four cases as following has been documented here:
 
