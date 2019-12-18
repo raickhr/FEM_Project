@@ -13,4 +13,6 @@ An input folder location is to be provided in file main.py inside codes folder. 
 6. matprop.txt
 7. nodeid.txt
 
+Sample of the input files are in \input folder and \inputCoarse folder for fine and coarse mesh. The lines that start with '%' are the comment lines and are ignored by the code.
+
 
