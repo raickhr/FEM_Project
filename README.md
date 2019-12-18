@@ -68,6 +68,6 @@ Sample of the input files are in FEM_Project\input folder and FEM_Project\inputC
 <figure>
 
 <figure>
-    <img src="FEM_Project/images/Reaction Coarse.png" width=400 height=200/>
+    <img src="FEM_Project/images/Reaction Coarse.png" width=350 height=200/>
     Figure: Y-Reaction at base, full integration 
 <figure>
