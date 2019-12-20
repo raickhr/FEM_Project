@@ -118,4 +118,23 @@ Sample of the input files are in FEM_Project\input folder and FEM_Project\inputC
 <figure>
     <img src="FEM_Project/images/Reaction Fine.png" width=350 height=200/>
     Figure: Y-Reaction at base for fine mesh, full integration 
-<figure>
+<figure> 
+
+## Results from ABAQUS model
+
+<table>
+  <tr>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Displacement U.JPG"/>
+         <p align="center"><br/>Figure: Displacement in X-direction </a></p>
+     </td>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Displacement U.JPG"/>
+        <p align="center"><br/>Figure: Displacement in Y- direction</a></p>
+     </td>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Displacement mag.JPG"/>
+        <p align="center"><br/>Figure: Displacement magnutude</a></p>
+     </td>
+  </tr>
+</table>
