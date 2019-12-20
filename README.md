@@ -172,3 +172,18 @@ Sample of the input files are in FEM_Project\input folder and FEM_Project\inputC
      </td>
   </tr>
 </table>
+
+<figure>
+    <img src="FEM_Project/images/Reaction Abaqus.png" width=350 height=200/>
+    Figure: Y-Reaction at base for abaqus model
+<figure>
+
+The contours of the displacements of the fine mesh is near to the ABAQUS model results, while for stress and strain the contour plot of ABAQUS model is smoother across the elements.
+
+## Discussion
+
+Since our mesh is not pefectly a square aligned with sides aligned with axes the Jacobian matrix is not constant. This results the integrand to be of higher order for and hence reduced integration does not yeild accurate stiffness matrix. Full integration on the other hand yeilds correct stiffness matrix and hence give more accurate results. The spurious displacements in the deformed shape and the Y-reaction magnitude in the base in reduced integration shows the inaccuracy of the results However both reduced and full integration uses Guass Quadrature rule for numerical integraion.
+
+Also, the results in fine mesh yeilds more correct results as the error is minimized in more smaller volume for fine mesh. While the contour are similar we can see the difference of the magnitude of the Y-reaction in the base is higher for coarse mesh than in fine mesh. This is because the reaction forces applied to the lower number of the nodes is needed to balance the applied load. 
+
+One of the ways to improve the result is by decreasing the mesh size. However this is increase the computational cost. Another way to improve the result is by using Q9 element instead of Q4 element. For Q4 element the xx component of strain is only dependent on y co-ordinate and yy component in x co-ordinate and is linear. Using Q9 element will allow us to have stress of higher order and hence can give us more correct results.
