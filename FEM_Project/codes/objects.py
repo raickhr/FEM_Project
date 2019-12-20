@@ -47,9 +47,9 @@ class Q4_element:
 
     def calc_Fields(self, E, nu, scale=200):
         verts = np.transpose([self.x_list, self.y_list])
-        dispScaled = np.transpose([self.u, self.v]) * scale
+        # dispScaled = np.transpose([self.u, self.v]) * scale
 
-        verts = np.array(verts)+np.array(dispScaled)
+        # verts = np.array(verts)+np.array(dispScaled)
 
         ux = np.array(self.u)
         uy = np.array(self.v)
@@ -156,10 +156,10 @@ class Q4_element:
 
         self.dispMag = np.sqrt(self.ux**2 + self.uy**2)
 
-        self.stress_x = E/(1-nu**2)*(self.strain_x + nu * self.strain_y)
-        self.stress_y = E/(1-nu**2)*(nu * self.strain_x + self.strain_y)
+        self.stress_x = E/((1+nu)*(1-2*nu))*((1-nu)*self.strain_x + nu * self.strain_y)
+        self.stress_y = E/((1+nu)*(1-2*nu))*((1-nu)*self.strain_y + nu * self.strain_x)
 
-        self.stress_xy = 0.5*E/(1+nu) * self.strain_xy
+        self.stress_xy = E/(1+nu) * self.strain_xy
 
     def calcJmatrix(self, xi, eta):
         d_ShapeF = np.array(\
