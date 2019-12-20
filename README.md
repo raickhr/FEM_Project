@@ -134,7 +134,41 @@ Sample of the input files are in FEM_Project\input folder and FEM_Project\inputC
      </td>
      <td>
         <img style="width: 200px; height: 200px" src="FEM_Project/images/Displacement mag.JPG"/>
-        <p align="center"><br/>Figure: Displacement magnutude</a></p>
+        <p align="center"><br/>Figure: Displacement magnitude</a></p>
+     </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Strain_xx.JPG"/>
+         <p align="center"><br/>Figure: Strain_xx</a></p>
+     </td>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Strain_yy.JPG"/>
+        <p align="center"><br/>Figure: Strain_yy</a></p>
+     </td>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Strain_xy.JPG"/>
+        <p align="center"><br/>Figure: Strain_xy</a></p>
+     </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Stress_xx.JPG"/>
+         <p align="center"><br/>Figure: Stress_xx</a></p>
+     </td>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Stress_yy.JPG"/>
+        <p align="center"><br/>Figure: Stress_yy</a></p>
+     </td>
+     <td>
+        <img style="width: 200px; height: 200px" src="FEM_Project/images/Stress_xy.JPG"/>
+        <p align="center"><br/>Figure: Stress_xy</a></p>
      </td>
   </tr>
 </table>
